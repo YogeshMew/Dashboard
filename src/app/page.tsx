@@ -5,7 +5,6 @@ import MetricCard from '@/components/MetricCard';
 import ActivityItem from '@/components/ActivityItem';
 import { CheckCircle, Info, AlertTriangle, AlertCircle } from 'lucide-react';
 
-
 export default function HomePage() {
   return (
     <div className="space-y-6">
@@ -17,8 +16,8 @@ export default function HomePage() {
       </div>
 
       <div className="bg-white rounded-lg p-6 shadow-sm">
-      <h2 className="text-base font-medium text-gray-900 mb-4">Recent Activity</h2>
-      <div className="divide-y divide-gray-100">
+        <h2 className="text-lg font-bold text-gray-900 mb-4">Recent Activity</h2>
+        <div className="divide-y divide-gray-100">
           <ActivityItem 
             icon={<div className="w-6 h-6 text-green-500"><CheckCircle className="w-full h-full" /></div>}
             message="User John Doe completed a purchase."

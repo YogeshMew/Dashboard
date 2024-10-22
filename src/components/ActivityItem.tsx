@@ -14,7 +14,7 @@ export default function ActivityItem({ icon, message, timestamp }: ActivityItemP
         {icon}
       </div>
       <div className="flex-1">
-        <p className="text-sm font-medium text-gray-900">{message}</p>
+        <p className="text-sm font-bold text-gray-900">{message}</p>
         <p className="text-xs text-gray-500">{timestamp}</p>
       </div>
     </div>
